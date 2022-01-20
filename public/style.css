@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+
+
+
+/* custom att */
+
+.btn-blue{
+    color: #F1F6F9 !important;
+    background: #14274E !important;
+    border-radius: 100px !important;
+}
+
+.btn-grey{
+    background: #9BA4B4 !important;
+    border-radius: 100px !important;
+}
+
+/* end custom att */
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background: #F1F6F9;
+}
+
+h1{
+    color: #183165;
+}
+
+li a {
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(57, 72, 103, 0.8);
+    margin-left: 40px;
+}
+
+/* Hero Section */
+#section-hero{
+    background: linear-gradient(180deg, #F1F6F9 0%, #FFFFFF 100%);
+}
+
+#section-hero h1{
+    margin-top: 70px;
+    font-size: 85px;
+    line-height: 144px;
+    color: #183165;
+
+}
+
+#special-h1{
+    font-size: 46px !important;
+}
+
+/* end Hero Section */
+
+
+/* Section Income */
+#section-income{
+    background: linear-gradient(180deg, #C1DAE9 0%, #FFFFFF 100%);
+}
+
+
+.card{
+    border-radius: 30px !important;
+    border: 0;
+    width: 275px;
+    height: 300px;
+    background: #F1F6F9;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.2));
+    margin-bottom: 200px;
+}
+
+.card-title{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+    color: #14274E;
+}
+
+.card-subtitle{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: #14274E;
+}
+
+.card-text{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: #14274E;
+}
+
+.card-detail{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #183165;
+}
+
+/* End Section Income */
+
+
+/* Section Rent Data */
+
+#section-rent-data{
+    background: linear-gradient(180deg, #FFFFFF 48.92%, #EDF8FF 100%);
+    height: fit-content + 2000px;
+}
+
+#rent-table{
+    color: #183165;
+    background: #F1F6F9;
+    border-radius: 30px;
+}
+
+#rent-table tr:hover {
+    background: #DEE7EC;
+}
+
+.number{
+    text-align: center;
+}
+
+.btn-edit{
+    padding: 0;
+    font-size: 10px;
+    width: 65px;
+    height: 30px;
+}
+
+
+/* End Section Rent Dat */
+
+
+/* create-rent */
+
+#rent-form{
+    color: rgba(57, 72, 103, 0.8);  
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+#input-form{
+    border: 2px solid #183165;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#btn-submit{
+  width: 232px;
+}
+
+#btn-cancel{
+  width: 232px;
+
+}
+
+/* end create-rent */
